@@ -8,7 +8,12 @@ function App() {
  return(
      <>
          <Button/>
-         <Student/>
+         <Student name="Spongebob" age={30} isStudent={true}/>
+         <Student name="Mr.Crab" age={67} isStudent={false}/>
+         <Student name="Plankton" age={65} isStudent={false}/>
+         <Student name="Squidward" age={34} isStudent={true}/>
+         <Student name="Warwick"/>
+
      </>
  );
 }
