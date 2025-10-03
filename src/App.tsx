@@ -5,6 +5,7 @@ import Card from "./Card";
 import Button from './Button/Button'
 import Student from './Student'
 import UserGreetings from "./UserGreetings";
+import List from './List';
 function App() {
  return(
      <>
@@ -16,7 +17,7 @@ function App() {
          <Student name="Squidward" age={34} isStudent={true}/>
          <Student name="Warwick"/>
          */}
-         <UserGreetings isLoggedIn={false} username="Talib" />
+         <List/>
      </>
  );
 }
