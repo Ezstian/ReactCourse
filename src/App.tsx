@@ -6,6 +6,7 @@ import Button from './Button/Button'
 import Student from './Student'
 import UserGreetings from "./UserGreetings";
 import List from './List';
+import Button2 from "./Button2/Button2";
 function App() {
     const fruits = [{id: 1, name:"apple", calories: 95},
         {id: 2, name:"orange", calories: 45},
@@ -33,6 +34,7 @@ function App() {
          <List items={fruits} category="Fruits"/>
          <List items={vegetables} category="Vegetables"/>
          <UserGreetings isLoggedIn={false} username="Talib" />
+         <Button2/>
      </>
  );
 }
